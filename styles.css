@@ -857,6 +857,36 @@ img { max-width: 100%; display: block; }
   flex: 1;
 }
 
+/* Answer Hint */
+.answer-hint {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #f87171;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.answer-hint.visible {
+  opacity: 1;
+}
+
+/* Shake Animation */
+.answers-grid.shake {
+  animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
 /* Quiz Nav */
 .quiz-nav {
   display: flex;

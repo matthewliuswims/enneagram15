@@ -3,12 +3,14 @@
 // ============================================
 const questions = [
   {
-    text: "When you walk into a room full of strangers, what's your first instinct?",
+    text: "When you walk into a room full of strangers, what is your first instinct?",
     answers: [
-      { text: "Scan the room and find the most interesting person to talk to", id: "a" },
-      { text: "Find a comfortable spot and wait for someone to approach me", id: "b" },
-      { text: "Immediately start introducing myself to everyone", id: "c" },
-      { text: "Observe the dynamics: who's leading, who's following", id: "d" }
+      { text: "Climb a tree or play dead", id: "a", type: 9 },
+      { text: "Turn yourself into a mist", id: "b", type: 10 },
+      { text: "Get to know the people nearest to you", id: "c", type: 11 },
+      { text: "SMASH", id: "d", type: 12 },
+      { text: "Find war donors", id: "e", type: 13 },
+      { text: "Just vibe", id: "f", type: 14 }
     ]
   },
   {
@@ -260,7 +262,7 @@ function renderQuestion() {
   document.getElementById('question-text').textContent = q.text;
 
   const grid = document.getElementById('answers-grid');
-  const letters = ['A', 'B', 'C', 'D'];
+  const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
   grid.innerHTML = q.answers.map((a, i) => `
     <button class="answer-option ${answers[currentQuestion] === i ? 'selected' : ''}"
             onclick="selectAnswer(${i})">
@@ -274,7 +276,9 @@ function renderQuestion() {
   const btnNext = document.getElementById('btn-next');
   const isLast = currentQuestion === total - 1;
   btnNext.textContent = isLast ? 'See Results →' : 'Next →';
-  btnNext.disabled = answers[currentQuestion] === undefined;
+
+  // Hide hint when navigating to a new question
+  document.getElementById('answer-hint').classList.remove('visible');
 }
 
 function selectAnswer(index) {
@@ -282,10 +286,20 @@ function selectAnswer(index) {
   document.querySelectorAll('.answer-option').forEach((el, i) => {
     el.classList.toggle('selected', i === index);
   });
-  document.getElementById('btn-next').disabled = false;
+  document.getElementById('answer-hint').classList.remove('visible');
 }
 
 function nextQuestion() {
+  if (answers[currentQuestion] === undefined) {
+    // Shake the answers grid and show hint
+    const grid = document.getElementById('answers-grid');
+    grid.classList.remove('shake');
+    grid.offsetHeight; // force reflow
+    grid.classList.add('shake');
+    document.getElementById('answer-hint').classList.add('visible');
+    return;
+  }
+
   if (currentQuestion < questions.length - 1) {
     currentQuestion++;
     renderQuestion();
