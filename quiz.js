@@ -30,57 +30,12 @@ const questions = [
     ]
   },
   {
-    text: "What do you value most in your closest relationships?",
-    answers: [
-      { text: "Intellectual stimulation and deep conversations", id: "a" },
-      { text: "Unconditional loyalty and emotional safety", id: "b" },
-      { text: "Shared adventures and new experiences", id: "c" },
-      { text: "Honesty, even when it's uncomfortable", id: "d" }
-    ]
-  },
-  {
-    text: "It's Sunday with nothing planned. Your ideal day looks like:",
-    answers: [
-      { text: "A passion project I've been meaning to get back to", id: "a" },
-      { text: "A long brunch with friends followed by aimless wandering", id: "b" },
-      { text: "Reading, journaling, or something quiet and reflective", id: "c" },
-      { text: "Organizing, planning, or getting ahead on the week", id: "d" }
-    ]
-  },
-  {
     text: "When you disagree with someone you respect, you typically:",
     answers: [
       { text: "Say it directly. Honest disagreement is healthy", id: "a" },
       { text: "Ask questions to understand their perspective first", id: "b" },
       { text: "Keep it to myself unless it really matters", id: "c" },
       { text: "Find a diplomatic way to present my alternative view", id: "d" }
-    ]
-  },
-  {
-    text: "What kind of criticism stings the most?",
-    answers: [
-      { text: "Being told I'm not competent or knowledgeable enough", id: "a" },
-      { text: "Being told I'm too intense or overwhelming for people", id: "b" },
-      { text: "Being called selfish or uncaring", id: "c" },
-      { text: "Being told I'm not living up to my potential", id: "d" }
-    ]
-  },
-  {
-    text: "In a team setting, you naturally gravitate toward:",
-    answers: [
-      { text: "The visionary role, generating ideas and direction", id: "a" },
-      { text: "The executor, getting things done efficiently", id: "b" },
-      { text: "The mediator, keeping everyone aligned and heard", id: "c" },
-      { text: "The analyst, poking holes and ensuring quality", id: "d" }
-    ]
-  },
-  {
-    text: "What's your relationship with rules and structure?",
-    answers: [
-      { text: "I respect rules that make sense, and question the ones that don't", id: "a" },
-      { text: "Structure gives me comfort. I like knowing what's expected", id: "b" },
-      { text: "I find most rules are just suggestions", id: "c" },
-      { text: "I create my own systems that work better than the official ones", id: "d" }
     ]
   },
   {
@@ -99,33 +54,6 @@ const questions = [
       { text: "\"I need to be needed; that's how I know I matter\"", id: "b" },
       { text: "\"I need freedom to be who I am without constraints\"", id: "c" },
       { text: "\"I need to do things right, or it haunts me\"", id: "d" }
-    ]
-  },
-  {
-    text: "When you think about your legacy, what you'll be remembered for, what matters most?",
-    answers: [
-      { text: "That I was authentic and lived on my own terms", id: "a" },
-      { text: "That I made people feel seen, valued, and loved", id: "b" },
-      { text: "That I built or created something meaningful", id: "c" },
-      { text: "That I stood for something and made a real difference", id: "d" }
-    ]
-  },
-  {
-    text: "You notice a coworker is struggling but hasn't asked for help. You:",
-    answers: [
-      { text: "Offer to help directly. Why wait for them to ask?", id: "a" },
-      { text: "Drop a subtle hint that you're available if they need anything", id: "b" },
-      { text: "Assume they'll ask if they need help. I respect their autonomy", id: "c" },
-      { text: "Quietly handle some of the load without making it a thing", id: "d" }
-    ]
-  },
-  {
-    text: "What energizes you most after a long, draining week?",
-    answers: [
-      { text: "Complete solitude: no people, no obligations, no noise", id: "a" },
-      { text: "A deep, meaningful conversation with someone I trust", id: "b" },
-      { text: "Something physical: a hike, a workout, cooking a great meal", id: "c" },
-      { text: "Diving into a creative project or learning something new", id: "d" }
     ]
   },
   {
