@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Enneagram 15</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-symbol">&#9673;</div>
+        <span>Enneagram 15</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#types">The 15 Types</a></li>
+        <li><a href="quiz.html" class="nav-cta">Take the Quiz</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="legal-page">
+    <div class="container">
+      <h1>Terms of Service</h1>
+      <p class="legal-updated">Last updated: March 28, 2026</p>
+
+      <h2>Acceptance of Terms</h2>
+      <p>By accessing and using Enneagram 15 (www.enneagram15.com), you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use the website.</p>
+
+      <h2>Description of Service</h2>
+      <p>Enneagram 15 provides a free personality assessment quiz and educational content about personality archetypes. The quiz is intended for entertainment and self-reflection purposes only.</p>
+
+      <h2>Not Professional Advice</h2>
+      <p>The content and quiz results provided on this website are not a substitute for professional psychological, medical, or therapeutic advice. Our personality archetypes are meant for personal insight and should not be used for clinical diagnosis, hiring decisions, or any other consequential purpose.</p>
+
+      <h2>Intellectual Property</h2>
+      <p>All content on this website, including text, graphics, logos, and personality descriptions, is the property of Enneagram 15 and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from our content without prior written permission.</p>
+
+      <h2>User Conduct</h2>
+      <p>You agree to use the website only for lawful purposes. You may not attempt to interfere with the proper functioning of the website or access it through automated means without permission.</p>
+
+      <h2>Disclaimer of Warranties</h2>
+      <p>The website and its content are provided "as is" without warranties of any kind, either express or implied. We do not guarantee the accuracy, completeness, or usefulness of any quiz results or personality descriptions.</p>
+
+      <h2>Limitation of Liability</h2>
+      <p>Enneagram 15 shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of or inability to use the website.</p>
+
+      <h2>Changes to Terms</h2>
+      <p>We reserve the right to modify these terms at any time. Changes will be posted on this page with an updated revision date. Continued use of the website after changes constitutes acceptance of the new terms.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about these terms, please reach out to us through our website.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-symbol">&#9673;</div>
+            <span>Enneagram 15</span>
+          </div>
+          <p>Helping people understand themselves and each other since 2009. Our mission is to make the wisdom of the Enneagram accessible to everyone.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About the Enneagram</a></li>
+            <li><a href="index.html#types">The 15 Types</a></li>
+            <li><a href="quiz.html">Take the Quiz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Enneagram 15. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
