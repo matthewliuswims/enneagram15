@@ -89,6 +89,17 @@ const questions = [
       { text: "Primordial screaming", id: "e", type: 13 },
       { text: "Primordial screaming", id: "f", type: 14 }
     ]
+  },
+  {
+    text: "What is one of your favorite snacks?",
+    answers: [
+      { text: "Ashes", id: "a", type: 10 },
+      { text: "Dumplings", id: "b", type: 11 },
+      { text: "Caviar", id: "c", type: 13 },
+      { text: "Tired undergraduates", id: "d", type: 14 },
+      { text: "SMASH burgers", id: "e", type: 12 },
+      { text: "Garbage or overripe grapes", id: "f", type: 9 }
+    ]
   }
 ];
 
