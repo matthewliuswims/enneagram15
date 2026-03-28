@@ -8,15 +8,15 @@ const questions = [
       { text: "Scan the room and find the most interesting person to talk to", id: "a" },
       { text: "Find a comfortable spot and wait for someone to approach me", id: "b" },
       { text: "Immediately start introducing myself to everyone", id: "c" },
-      { text: "Observe the dynamics — who's leading, who's following", id: "d" }
+      { text: "Observe the dynamics: who's leading, who's following", id: "d" }
     ]
   },
   {
     text: "A close friend cancels plans at the last minute. What goes through your mind first?",
     answers: [
-      { text: "\"Something must be wrong — I should check on them\"", id: "a" },
+      { text: "\"Something must be wrong. I should check on them\"", id: "a" },
       { text: "\"Finally, an evening to myself\"", id: "b" },
-      { text: "\"That's frustrating — I rearranged my schedule for this\"", id: "c" },
+      { text: "\"That's frustrating. I rearranged my schedule for this\"", id: "c" },
       { text: "\"I wonder if I did something to upset them\"", id: "d" }
     ]
   },
@@ -50,7 +50,7 @@ const questions = [
   {
     text: "When you disagree with someone you respect, you typically:",
     answers: [
-      { text: "Say it directly — honest disagreement is healthy", id: "a" },
+      { text: "Say it directly. Honest disagreement is healthy", id: "a" },
       { text: "Ask questions to understand their perspective first", id: "b" },
       { text: "Keep it to myself unless it really matters", id: "c" },
       { text: "Find a diplomatic way to present my alternative view", id: "d" }
@@ -68,17 +68,17 @@ const questions = [
   {
     text: "In a team setting, you naturally gravitate toward:",
     answers: [
-      { text: "The visionary role — generating ideas and direction", id: "a" },
-      { text: "The executor — getting things done efficiently", id: "b" },
-      { text: "The mediator — keeping everyone aligned and heard", id: "c" },
-      { text: "The analyst — poking holes and ensuring quality", id: "d" }
+      { text: "The visionary role, generating ideas and direction", id: "a" },
+      { text: "The executor, getting things done efficiently", id: "b" },
+      { text: "The mediator, keeping everyone aligned and heard", id: "c" },
+      { text: "The analyst, poking holes and ensuring quality", id: "d" }
     ]
   },
   {
     text: "What's your relationship with rules and structure?",
     answers: [
       { text: "I respect rules that make sense, and question the ones that don't", id: "a" },
-      { text: "Structure gives me comfort — I like knowing what's expected", id: "b" },
+      { text: "Structure gives me comfort. I like knowing what's expected", id: "b" },
       { text: "I find most rules are just suggestions", id: "c" },
       { text: "I create my own systems that work better than the official ones", id: "d" }
     ]
@@ -96,13 +96,13 @@ const questions = [
     text: "Which statement resonates most deeply with you?",
     answers: [
       { text: "\"I need to understand the world before I can act in it\"", id: "a" },
-      { text: "\"I need to be needed — that's how I know I matter\"", id: "b" },
+      { text: "\"I need to be needed; that's how I know I matter\"", id: "b" },
       { text: "\"I need freedom to be who I am without constraints\"", id: "c" },
       { text: "\"I need to do things right, or it haunts me\"", id: "d" }
     ]
   },
   {
-    text: "When you think about your legacy — what you'll be remembered for — what matters most?",
+    text: "When you think about your legacy, what you'll be remembered for, what matters most?",
     answers: [
       { text: "That I was authentic and lived on my own terms", id: "a" },
       { text: "That I made people feel seen, valued, and loved", id: "b" },
@@ -113,28 +113,28 @@ const questions = [
   {
     text: "You notice a coworker is struggling but hasn't asked for help. You:",
     answers: [
-      { text: "Offer to help directly — why wait for them to ask?", id: "a" },
+      { text: "Offer to help directly. Why wait for them to ask?", id: "a" },
       { text: "Drop a subtle hint that you're available if they need anything", id: "b" },
-      { text: "Assume they'll ask if they need help — I respect their autonomy", id: "c" },
+      { text: "Assume they'll ask if they need help. I respect their autonomy", id: "c" },
       { text: "Quietly handle some of the load without making it a thing", id: "d" }
     ]
   },
   {
     text: "What energizes you most after a long, draining week?",
     answers: [
-      { text: "Complete solitude — no people, no obligations, no noise", id: "a" },
+      { text: "Complete solitude: no people, no obligations, no noise", id: "a" },
       { text: "A deep, meaningful conversation with someone I trust", id: "b" },
-      { text: "Something physical — a hike, a workout, cooking a great meal", id: "c" },
+      { text: "Something physical: a hike, a workout, cooking a great meal", id: "c" },
       { text: "Diving into a creative project or learning something new", id: "d" }
     ]
   },
   {
     text: "When making a big life decision, you rely most on:",
     answers: [
-      { text: "My gut feeling — I usually know before I can explain why", id: "a" },
+      { text: "My gut feeling. I usually know before I can explain why", id: "a" },
       { text: "Careful analysis of all the options and their trade-offs", id: "b" },
       { text: "Advice from people who've been in similar situations", id: "c" },
-      { text: "My core values — does this align with who I want to be?", id: "d" }
+      { text: "My core values. Does this align with who I want to be?", id: "d" }
     ]
   }
 ];
@@ -145,27 +145,27 @@ const questions = [
 const personalities = [
   {
     name: "The Luminary",
-    badge: "Archetype I — Visionary Leader",
-    summary: "You are a rare blend of deep intuition and bold action. Luminaries possess an almost magnetic quality — people are drawn to your clarity of vision and your ability to articulate futures that others can't yet see. You don't just dream; you architect. Your mind operates several steps ahead, weaving together patterns and possibilities into coherent narratives that inspire others to follow. At your best, you transform chaos into direction. At your most challenged, you can become impatient with those who don't share your pace or vision.",
+    badge: "Archetype I: Visionary Leader",
+    summary: "You are a rare blend of deep intuition and bold action. Luminaries possess an almost magnetic quality. People are drawn to your clarity of vision and your ability to articulate futures that others can't yet see. You don't just dream; you architect. Your mind operates several steps ahead, weaving together patterns and possibilities into coherent narratives that inspire others to follow. At your best, you transform chaos into direction. At your most challenged, you can become impatient with those who don't share your pace or vision.",
     traits: ["Visionary", "Charismatic", "Strategic", "Intense", "Future-oriented"],
     strengths: ["Natural ability to inspire and mobilize others", "Can synthesize complex information into clear direction", "Thrives in ambiguity where others freeze", "Builds movements, not just projects"],
     blindspots: ["Can dismiss practical concerns as 'small thinking'", "May unconsciously steamroll quieter voices", "Tendency to overcommit to the 'next big thing'", "Can confuse confidence with correctness"],
-    compatibility: "You connect most deeply with The Sage and The Alchemist, who match your depth without competing for the spotlight. Be mindful in relationships with The Sentinel — your pace can overwhelm their need for stability, but their grounding influence is exactly what you need.",
+    compatibility: "You connect most deeply with The Sage and The Alchemist, who match your depth without competing for the spotlight. Be mindful in relationships with The Sentinel. Your pace can overwhelm their need for stability, but their grounding influence is exactly what you need.",
     growth: "Your growth edge is patience. Not everything needs to be a revolution. Practice sitting with 'good enough' and letting ideas mature before launching them. The world needs your vision, but it needs your presence even more."
   },
   {
     name: "The Sentinel",
-    badge: "Archetype II — Devoted Guardian",
-    summary: "You are the person everyone secretly relies on but rarely thanks enough. Sentinels carry an extraordinary capacity for loyalty and consistency that forms the backbone of every community they're part of. Your strength isn't flashy — it's foundational. You notice the cracks before they become chasms, and you show up reliably in a world that often doesn't. You carry a deep sense of duty, not because someone imposed it on you, but because you genuinely believe that showing up matters.",
+    badge: "Archetype II: Devoted Guardian",
+    summary: "You are the person everyone secretly relies on but rarely thanks enough. Sentinels carry an extraordinary capacity for loyalty and consistency that forms the backbone of every community they're part of. Your strength isn't flashy; it's foundational. You notice the cracks before they become chasms, and you show up reliably in a world that often doesn't. You carry a deep sense of duty, not because someone imposed it on you, but because you genuinely believe that showing up matters.",
     traits: ["Loyal", "Observant", "Steady", "Protective", "Principled"],
     strengths: ["Unshakeable reliability that others depend on", "Keen eye for risks and vulnerabilities others miss", "Deep capacity for long-term commitment", "Creates safety and stability in chaotic environments"],
     blindspots: ["Can become rigid when routines are disrupted", "May sacrifice personal needs for duty", "Tendency toward worst-case-scenario thinking", "Can struggle to delegate or trust others to follow through"],
-    compatibility: "Your steadiness pairs beautifully with The Wanderer's spontaneity — you ground each other. Deep friendships with The Healer feel natural, as you both value emotional safety. Watch for tension with The Maverick, whose rule-breaking can feel threatening to your sense of order.",
+    compatibility: "Your steadiness pairs beautifully with The Wanderer's spontaneity; you ground each other. Deep friendships with The Healer feel natural, as you both value emotional safety. Watch for tension with The Maverick, whose rule-breaking can feel threatening to your sense of order.",
     growth: "Your growth edge is trust — specifically, trusting that things won't fall apart if you step back. You don't have to hold everything together alone. Practice letting small things go wrong without intervening. You'll discover the world is more resilient than your anxiety suggests."
   },
   {
     name: "The Sage",
-    badge: "Archetype III — Contemplative Thinker",
+    badge: "Archetype III: Contemplative Thinker",
     summary: "Your mind is your most powerful instrument, and you've spent a lifetime sharpening it. Sages are driven by an insatiable need to understand — not just surface-level knowledge, but the deep structures that govern how things work. You collect insights the way others collect experiences, building intricate internal models of the world. Conversations with you feel like stepping into a library where every book is open to the most interesting page. Your gift is making the complex comprehensible.",
     traits: ["Analytical", "Curious", "Independent", "Perceptive", "Reserved"],
     strengths: ["Extraordinary depth of understanding in chosen domains", "Ability to see connections others miss entirely", "Comfortable with solitude and independent work", "Brings clarity to muddled situations through precise thinking"],
@@ -175,7 +175,7 @@ const personalities = [
   },
   {
     name: "The Healer",
-    badge: "Archetype IV — Empathic Nurturer",
+    badge: "Archetype IV: Empathic Nurturer",
     summary: "You feel the world more deeply than most people realize. Healers possess an almost psychic sensitivity to the emotional undercurrents in any room — you can sense tension, sadness, or unspoken needs before anyone has said a word. This isn't a skill you learned; it's woven into how you experience reality. People open up to you in ways that surprise even them, because your presence communicates something rare: genuine, unconditional acceptance. You don't just listen — you hold space.",
     traits: ["Empathic", "Nurturing", "Intuitive", "Gentle", "Self-sacrificing"],
     strengths: ["Creates deep emotional safety for others", "Natural ability to heal relational wounds", "Reads non-verbal cues with remarkable accuracy", "Brings warmth and humanity to cold environments"],
@@ -185,7 +185,7 @@ const personalities = [
   },
   {
     name: "The Artisan",
-    badge: "Archetype V — Creative Individualist",
+    badge: "Archetype V: Creative Individualist",
     summary: "You experience the world through a lens of beauty, meaning, and emotional truth that most people don't even know exists. Artisans are the ones who notice the way light falls through a window, who find poetry in ordinary moments, who feel that life should be lived as a form of art. You are drawn to the authentic and the original — imitation and conformity feel physically uncomfortable to you. Your inner world is rich, textured, and often more vivid than external reality.",
     traits: ["Creative", "Sensitive", "Authentic", "Expressive", "Idealistic"],
     strengths: ["Transforms emotions and experiences into meaning", "Brings originality and beauty to everything touched", "Deep capacity for emotional honesty", "Makes others feel permission to be themselves"],
@@ -195,7 +195,7 @@ const personalities = [
   },
   {
     name: "The Catalyst",
-    badge: "Archetype VI — Pragmatic Achiever",
+    badge: "Archetype VI: Pragmatic Achiever",
     summary: "You have a gift for making things happen. While others are still debating possibilities, you've already built the first version. Catalysts are driven by a deep need to create tangible impact — ideas without execution feel incomplete to you. You're the person who turns ambitious plans into operational realities, and you do it with an efficiency that borders on art. You measure your worth by results, and you hold yourself to standards that would exhaust most people.",
     traits: ["Driven", "Pragmatic", "Efficient", "Results-oriented", "Disciplined"],
     strengths: ["Exceptional ability to execute and deliver", "Cuts through noise to focus on what matters", "Sets and maintains high standards naturally", "Inspires productivity in those around them"],
@@ -205,7 +205,7 @@ const personalities = [
   },
   {
     name: "The Wanderer",
-    badge: "Archetype VII — Adventurous Spirit",
+    badge: "Archetype VII: Adventurous Spirit",
     summary: "The world is too vast and too fascinating for you to stay in one place, one routine, or one way of thinking for very long. Wanderers are powered by an inexhaustible curiosity that pulls them toward the edges of experience — new places, new ideas, new people, new versions of themselves. You're not running from something; you're running toward everything. Your enthusiasm is genuinely infectious, and you have a gift for making ordinary moments feel like the beginning of an adventure.",
     traits: ["Adventurous", "Optimistic", "Versatile", "Spontaneous", "Energetic"],
     strengths: ["Makes even mundane situations feel exciting", "Adapts rapidly to new environments and challenges", "Brings levity and joy to heavy situations", "Connects ideas across wildly different domains"],
@@ -215,7 +215,7 @@ const personalities = [
   },
   {
     name: "The Maverick",
-    badge: "Archetype VIII — Bold Nonconformist",
+    badge: "Archetype VIII: Bold Nonconformist",
     summary: "You were born questioning the rules, and you've never really stopped. Mavericks have an instinctive resistance to authority that isn't rebellion for its own sake — it's a deep-seated belief that most systems serve the system, not the people in it. You think from first principles, and you'd rather build something new than fix something broken. People either love your directness or find it threatening, and you've made peace with that divide. Your courage is quiet and total.",
     traits: ["Independent", "Bold", "Unconventional", "Direct", "Resilient"],
     strengths: ["Courage to challenge broken systems and norms", "Thinks originally, unconstrained by 'how it's always been done'", "Inspires others to question their assumptions", "Thrives under pressure and adversity"],
@@ -225,7 +225,7 @@ const personalities = [
   },
   {
     name: "The Phoenix",
-    badge: "Archetype IX — Resilient Transformer",
+    badge: "Archetype IX: Resilient Transformer",
     summary: "You have been through things that would have broken most people, and you emerged not just intact but fundamentally changed. Phoenixes carry a quiet strength born from adversity — not the loud, performative kind, but the deep, unshakeable kind that comes from knowing your own capacity to survive and rebuild. You understand transformation because you've lived it, multiple times. This gives you a perspective that is simultaneously grounded and expansive, practical and deeply wise.",
     traits: ["Resilient", "Wise", "Transformative", "Grounded", "Intense"],
     strengths: ["Unshakeable inner strength built through experience", "Can hold space for others' darkest moments without flinching", "Practical wisdom that comes from lived experience, not theory", "Transforms personal pain into collective insight"],
@@ -235,7 +235,7 @@ const personalities = [
   },
   {
     name: "The Alchemist",
-    badge: "Archetype X — Integrative Synthesizer",
+    badge: "Archetype X: Integrative Synthesizer",
     summary: "Where others see disconnected pieces, you see the hidden patterns that connect everything. Alchemists possess a rare cognitive gift: the ability to synthesize ideas, disciplines, and perspectives that seem completely unrelated into something new and greater than the sum of its parts. You're the person who connects the philosophical insight to the business strategy to the design principle to the human emotion underneath it all. Your mind doesn't just think outside the box — it dissolves the box entirely.",
     traits: ["Integrative", "Innovative", "Philosophical", "Adaptable", "Complex"],
     strengths: ["Sees connections between seemingly unrelated domains", "Creates novel solutions by combining existing ideas in new ways", "Comfortable with paradox and complexity", "Bridges different groups, disciplines, and worldviews"],
@@ -245,7 +245,7 @@ const personalities = [
   },
   {
     name: "The Ember",
-    badge: "Archetype XI — Passionate Intensifier",
+    badge: "Archetype XI: Passionate Intensifier",
     summary: "You don't just feel things — you feel them in surround sound, high definition, with the volume all the way up. Embers experience life at a level of emotional intensity that is both their greatest gift and their greatest challenge. When you love, you love with your whole being. When you're angry, it's a righteous fire. When you're inspired, you become a force of nature. People describe being around you as 'a lot' — and you've learned that this is both a compliment and a warning, depending on who's speaking.",
     traits: ["Passionate", "Intense", "Magnetic", "Emotional", "Unfiltered"],
     strengths: ["Brings extraordinary energy and passion to everything", "Creates deep, memorable emotional connections", "Courage to feel and express what others suppress", "Catalyzes authenticity in groups — people drop their masks around you"],
@@ -255,7 +255,7 @@ const personalities = [
   },
   {
     name: "The Architect",
-    badge: "Archetype XII — Systematic Builder",
+    badge: "Archetype XII: Systematic Builder",
     summary: "You see the world as a series of systems waiting to be designed, optimized, and perfected. Architects possess an extraordinary ability to think in structures — whether it's an organization, a codebase, a daily routine, or a philosophy of life, you instinctively map the components, relationships, and leverage points. Your mind craves order not for its own sake, but because you understand that good design is invisible: the best systems are the ones people don't even notice because they just work.",
     traits: ["Systematic", "Precise", "Strategic", "Detail-oriented", "Methodical"],
     strengths: ["Designs elegant solutions to complex structural problems", "Exceptional attention to detail without losing the big picture", "Creates frameworks that others can build upon", "Brings order and efficiency to chaotic environments"],
@@ -265,7 +265,7 @@ const personalities = [
   },
   {
     name: "The Dreamer",
-    badge: "Archetype XIII — Idealistic Visionary",
+    badge: "Archetype XIII: Idealistic Visionary",
     summary: "You live in the gap between the world as it is and the world as it could be — and you refuse to accept that the gap has to exist. Dreamers carry an unshakeable idealism that isn't naive; it's fierce. You believe in potential — human potential, creative potential, the potential of every situation to be something more beautiful than it currently is. While pragmatists focus on constraints, you focus on possibilities. This makes you both a source of inspiration and, occasionally, a source of frustration to the realists around you.",
     traits: ["Idealistic", "Imaginative", "Hopeful", "Gentle", "Visionary"],
     strengths: ["Sees possibility where others see only limitation", "Inspires hope and motivation in difficult times", "Rich inner world that fuels creative and compassionate action", "Holds space for what could be, even when it seems impossible"],
@@ -275,7 +275,7 @@ const personalities = [
   },
   {
     name: "The Mirror",
-    badge: "Archetype XIV — Reflective Empath",
+    badge: "Archetype XIV: Reflective Empath",
     summary: "You have an almost uncanny ability to reflect back to people who they truly are — often more clearly than they can see themselves. Mirrors are the rarest of empaths: rather than absorbing others' emotions, you illuminate them. In your presence, people have breakthrough realizations, not because you told them anything, but because your way of listening and responding creates a space where truth becomes visible. You are less a personality type and more a personality catalyst.",
     traits: ["Reflective", "Perceptive", "Adaptive", "Thoughtful", "Authentic"],
     strengths: ["Helps others achieve self-understanding through reflection", "Adapts communication style intuitively to each person", "Creates breakthrough moments in conversations", "Sees people's blind spots with compassion rather than judgment"],
@@ -285,7 +285,7 @@ const personalities = [
   },
   {
     name: "The Keeper",
-    badge: "Archetype XV — Harmonious Steward",
+    badge: "Archetype XV: Harmonious Steward",
     summary: "You are the quiet center that holds everything together. Keepers possess a rare combination of humility and strength — you don't need recognition to do important work, and you don't need authority to have influence. Your power lies in your consistency, your attention to the things that others overlook, and your deep commitment to maintaining the health and harmony of any community you belong to. You are the person who remembers birthdays, who checks in after the crisis is over, who tends the garden while others chase the horizon.",
     traits: ["Harmonious", "Humble", "Consistent", "Attentive", "Grounding"],
     strengths: ["Maintains the health of communities and relationships over time", "Notices and attends to what others overlook", "Creates a stabilizing presence that enables others to take risks", "Deep wisdom about what truly matters versus what merely seems urgent"],
