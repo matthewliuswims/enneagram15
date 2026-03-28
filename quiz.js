@@ -78,6 +78,17 @@ const questions = [
       { text: "GradIV!", id: "e", type: 11 },
       { text: "War!", id: "f", type: 13 }
     ]
+  },
+  {
+    text: "What is the song of your people?",
+    answers: [
+      { text: "Primordial screaming", id: "a", type: 9 },
+      { text: "Primordial screaming", id: "b", type: 10 },
+      { text: "Primordial screaming", id: "c", type: 11 },
+      { text: "Primordial screaming", id: "d", type: 12 },
+      { text: "Primordial screaming", id: "e", type: 13 },
+      { text: "Primordial screaming", id: "f", type: 14 }
+    ]
   }
 ];
 
