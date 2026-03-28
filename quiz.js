@@ -86,154 +86,154 @@ const questions = [
 // ============================================
 const personalities = [
   {
-    name: "The Luminary",
-    badge: "Archetype I: Visionary Leader",
-    summary: "You are a rare blend of deep intuition and bold action. Luminaries possess an almost magnetic quality. People are drawn to your clarity of vision and your ability to articulate futures that others can't yet see. You don't just dream; you architect. Your mind operates several steps ahead, weaving together patterns and possibilities into coherent narratives that inspire others to follow. At your best, you transform chaos into direction. At your most challenged, you can become impatient with those who don't share your pace or vision.",
-    traits: ["Visionary", "Charismatic", "Strategic", "Intense", "Future-oriented"],
-    strengths: ["Natural ability to inspire and mobilize others", "Can synthesize complex information into clear direction", "Thrives in ambiguity where others freeze", "Builds movements, not just projects"],
-    blindspots: ["Can dismiss practical concerns as 'small thinking'", "May unconsciously steamroll quieter voices", "Tendency to overcommit to the 'next big thing'", "Can confuse confidence with correctness"],
-    compatibility: "You connect most deeply with The Sage and The Alchemist, who match your depth without competing for the spotlight. Be mindful in relationships with The Sentinel. Your pace can overwhelm their need for stability, but their grounding influence is exactly what you need.",
-    growth: "Your growth edge is patience. Not everything needs to be a revolution. Practice sitting with 'good enough' and letting ideas mature before launching them. The world needs your vision, but it needs your presence even more."
+    name: "The Perfectionist",
+    badge: "Type 1",
+    summary: "You are principled, purposeful, and self-controlled. You have a deep sense of right and wrong and a powerful internal compass that guides everything you do. You hold yourself to extraordinarily high standards, not because anyone asks you to, but because you believe in doing things properly. Your integrity is your defining trait, and people trust you because they know you mean what you say. You bring order, clarity, and moral seriousness to everything you touch.",
+    traits: ["Principled", "Purposeful", "Self-controlled", "Ethical", "Precise"],
+    strengths: ["Unwavering commitment to doing what's right", "Brings clarity and structure to chaotic situations", "Naturally inspires trust through consistent integrity", "Attention to detail that ensures quality in everything"],
+    blindspots: ["Can become overly critical of yourself and others", "May struggle to relax or accept 'good enough'", "Tendency to see the world in black and white", "Can suppress emotions in favor of being 'correct'"],
+    compatibility: "You connect naturally with The Giver's warmth and The Investigator's precision. The Enthusiast helps you loosen up and remember that life isn't just about getting things right.",
+    growth: "Your growth edge is learning that imperfection is not failure. Practice letting things be messy sometimes. The world needs your standards, but it also needs you to be gentle with yourself."
   },
   {
-    name: "The Sentinel",
-    badge: "Archetype II: Devoted Guardian",
-    summary: "You are the person everyone secretly relies on but rarely thanks enough. Sentinels carry an extraordinary capacity for loyalty and consistency that forms the backbone of every community they're part of. Your strength isn't flashy; it's foundational. You notice the cracks before they become chasms, and you show up reliably in a world that often doesn't. You carry a deep sense of duty, not because someone imposed it on you, but because you genuinely believe that showing up matters.",
-    traits: ["Loyal", "Observant", "Steady", "Protective", "Principled"],
-    strengths: ["Unshakeable reliability that others depend on", "Keen eye for risks and vulnerabilities others miss", "Deep capacity for long-term commitment", "Creates safety and stability in chaotic environments"],
-    blindspots: ["Can become rigid when routines are disrupted", "May sacrifice personal needs for duty", "Tendency toward worst-case-scenario thinking", "Can struggle to delegate or trust others to follow through"],
-    compatibility: "Your steadiness pairs beautifully with The Wanderer's spontaneity; you ground each other. Deep friendships with The Healer feel natural, as you both value emotional safety. Watch for tension with The Maverick, whose rule-breaking can feel threatening to your sense of order.",
-    growth: "Your growth edge is trust. Specifically, trusting that things won't fall apart if you step back. You don't have to hold everything together alone. Practice letting small things go wrong without intervening. You'll discover the world is more resilient than your anxiety suggests."
+    name: "The Giver",
+    badge: "Type 2",
+    summary: "You are generous, demonstrative, and people-pleasing. Your instinct is to care for others, often before you think of yourself. You have an extraordinary ability to sense what people need and a deep desire to provide it. Your warmth is genuine and your generosity runs deep. People feel safe around you because you radiate acceptance and concern. You build your world around relationships, and your greatest joy comes from knowing you've made someone's life better.",
+    traits: ["Generous", "Demonstrative", "People-pleasing", "Warm", "Attentive"],
+    strengths: ["Extraordinary emotional intelligence and empathy", "Makes others feel valued and cared for", "Builds and maintains deep personal connections", "Selfless generosity that creates strong communities"],
+    blindspots: ["Can lose yourself in caring for others", "May give to get, then feel resentful when unreciprocated", "Difficulty acknowledging your own needs", "Can become possessive of the people you help"],
+    compatibility: "You pair well with The Achiever's energy and The Peacemaker's calm acceptance. The Challenger pushes you to stand up for your own needs, which you desperately need.",
+    growth: "Your growth edge is learning to receive. You give so freely, but accepting help feels uncomfortable. Practice asking for what you need directly, without earning it first."
   },
   {
-    name: "The Sage",
-    badge: "Archetype III: Contemplative Thinker",
-    summary: "Your mind is your most powerful instrument, and you've spent a lifetime sharpening it. Sages are driven by an insatiable need to understand, not just surface-level knowledge, but the deep structures that govern how things work. You collect insights the way others collect experiences, building intricate internal models of the world. Conversations with you feel like stepping into a library where every book is open to the most interesting page. Your gift is making the complex comprehensible.",
-    traits: ["Analytical", "Curious", "Independent", "Perceptive", "Reserved"],
-    strengths: ["Extraordinary depth of understanding in chosen domains", "Ability to see connections others miss entirely", "Comfortable with solitude and independent work", "Brings clarity to muddled situations through precise thinking"],
-    blindspots: ["Can retreat into thought at the expense of action", "May intellectualize emotions rather than feeling them", "Tendency to hoard knowledge as a form of control", "Can come across as detached or condescending without meaning to"],
-    compatibility: "You thrive alongside The Luminary, whose boldness turns your insights into action. The Artisan shares your appreciation for depth, creating rich creative partnerships. Be patient with The Ember. Their emotional intensity may feel overwhelming, but they'll teach you about a kind of knowing that lives in the body, not the mind.",
-    growth: "Your growth edge is embodiment. You know so much about the world through observation. Now learn it through experience. Take the cooking class. Say yes to the spontaneous road trip. Your understanding will only deepen when theory meets practice."
+    name: "The Achiever",
+    badge: "Type 3",
+    summary: "You are adaptable, excelling, driven, and image-conscious. You have an almost supernatural ability to read a room and become exactly what the situation requires. Success isn't just something you pursue; it's who you are. You set goals and hit them with a consistency that amazes people around you. Your energy is infectious, your confidence is magnetic, and your results speak for themselves. You believe that anything worth doing is worth doing exceptionally well.",
+    traits: ["Adaptable", "Excelling", "Driven", "Image-conscious", "Ambitious"],
+    strengths: ["Exceptional ability to set and achieve ambitious goals", "Natural charisma that motivates teams and organizations", "Adapts quickly to new challenges and environments", "Turns vision into tangible, measurable results"],
+    blindspots: ["Can confuse who you are with what you achieve", "May prioritize appearance over authenticity", "Tendency to cut corners on relationships in pursuit of goals", "Can burn out chasing external validation"],
+    compatibility: "You thrive alongside The Individualist's depth and The Skeptic's loyalty. The Peacemaker reminds you that not everything needs to be a competition.",
+    growth: "Your growth edge is stillness. You are enough even when you're not producing. Practice sitting with yourself without a goal, an agenda, or an audience. That's where you'll find the real you."
   },
   {
-    name: "The Healer",
-    badge: "Archetype IV: Empathic Nurturer",
-    summary: "You feel the world more deeply than most people realize. Healers possess an almost psychic sensitivity to the emotional undercurrents in any room. You can sense tension, sadness, or unspoken needs before anyone has said a word. This isn't a skill you learned; it's woven into how you experience reality. People open up to you in ways that surprise even them, because your presence communicates something rare: genuine, unconditional acceptance. You don't just listen. You hold space.",
-    traits: ["Empathic", "Nurturing", "Intuitive", "Gentle", "Self-sacrificing"],
-    strengths: ["Creates deep emotional safety for others", "Natural ability to heal relational wounds", "Reads non-verbal cues with remarkable accuracy", "Brings warmth and humanity to cold environments"],
-    blindspots: ["Absorbs others' emotions at the cost of your own wellbeing", "Can lose yourself in caretaking roles", "Difficulty setting boundaries without guilt", "May enable unhealthy patterns to avoid conflict"],
-    compatibility: "Your depth pairs naturally with The Sentinel's loyalty and The Phoenix's resilience. You'll find The Architect's emotional reserve challenging but ultimately rewarding. They need your warmth more than they know. Watch for codependent patterns with The Ember.",
-    growth: "Your growth edge is self-compassion with boundaries. Healing others is beautiful, but not at the cost of depleting yourself. Learning to say 'I care about you, and the answer is no' is your most important work. Your cup must be full before you can pour."
+    name: "The Individualist",
+    badge: "Type 4",
+    summary: "You are expressive, dramatic, and self-absorbed. But that self-absorption isn't vanity; it's depth. You experience the world with an emotional richness that most people can barely imagine. Beauty moves you. Loss shapes you. You feel things at frequencies others can't detect. Your inner world is a cathedral of feeling, memory, and meaning. You refuse to be ordinary because you genuinely aren't, and you'd rather feel pain deeply than not feel at all.",
+    traits: ["Expressive", "Dramatic", "Self-absorbed", "Sensitive", "Authentic"],
+    strengths: ["Unmatched emotional depth and self-awareness", "Creates beauty and meaning from raw experience", "Courage to be vulnerable and authentic", "Sees the poetry in life that others walk right past"],
+    blindspots: ["Can wallow in melancholy and romanticize suffering", "May feel fundamentally different from everyone else", "Tendency to envy what others have while devaluing what you have", "Can withdraw into fantasy when reality feels too ordinary"],
+    compatibility: "You resonate with The Investigator's depth and The Giver's warmth. The Achiever challenges you to translate feelings into action, which is medicine you need.",
+    growth: "Your growth edge is equanimity. Not every moment needs to be profound. Practice finding richness in the ordinary. The Tuesday afternoon, the routine errand -- these are life too, and they're worthy of your attention."
   },
   {
-    name: "The Artisan",
-    badge: "Archetype V: Creative Individualist",
-    summary: "You experience the world through a lens of beauty, meaning, and emotional truth that most people don't even know exists. Artisans are the ones who notice the way light falls through a window, who find poetry in ordinary moments, who feel that life should be lived as a form of art. You are drawn to the authentic and the original. Imitation and conformity feel physically uncomfortable to you. Your inner world is rich, textured, and often more vivid than external reality.",
-    traits: ["Creative", "Sensitive", "Authentic", "Expressive", "Idealistic"],
-    strengths: ["Transforms emotions and experiences into meaning", "Brings originality and beauty to everything touched", "Deep capacity for emotional honesty", "Makes others feel permission to be themselves"],
-    blindspots: ["Can romanticize suffering or melancholy", "May feel fundamentally 'different' in isolating ways", "Tendency to compare your inner world to others' outer lives", "Can withdraw when feeling misunderstood rather than reaching out"],
-    compatibility: "You resonate deeply with The Ember's intensity and The Sage's depth. Creative partnerships with The Alchemist can be electric. Be mindful with The Catalyst. Their pragmatism may feel dismissive, but their grounding energy can help you finish what you start.",
-    growth: "Your growth edge is finding beauty in the ordinary, not just the extraordinary. You don't need to be in a state of emotional intensity to be fully alive. Practice gratitude for the mundane: the boring Tuesday, the simple meal, the quiet evening. That's where most of life happens, and it's beautiful too."
+    name: "The Investigator",
+    badge: "Type 5",
+    summary: "You are perceptive, innovative, secretive, and isolated. Your mind is your sanctuary and your superpower. You observe the world with a precision and depth that borders on x-ray vision, cataloging patterns and building mental models that explain how everything works. Knowledge isn't just interesting to you; it's essential. It's how you feel safe. You'd rather understand the world from a distance than be swept up in its chaos, and the insights you generate from that vantage point are often extraordinary.",
+    traits: ["Perceptive", "Innovative", "Secretive", "Isolated", "Cerebral"],
+    strengths: ["Extraordinary analytical and observational abilities", "Can master complex subjects with deep, focused study", "Generates original insights others would never reach", "Comfortable with solitude and independent thinking"],
+    blindspots: ["Can detach from emotions and relationships", "May hoard knowledge and resources out of scarcity fears", "Tendency to observe life rather than participate in it", "Can become increasingly isolated and eccentric"],
+    compatibility: "You connect with The Individualist's depth and The Skeptic's analytical mind. The Challenger pushes you out of your head and into the world, which is exactly what you need.",
+    growth: "Your growth edge is engagement. You know enough. Now step into the arena. Practice sharing your insights before they feel 'complete.' The world needs your brilliance in real time, not after years of private refinement."
   },
   {
-    name: "The Catalyst",
-    badge: "Archetype VI: Pragmatic Achiever",
-    summary: "You have a gift for making things happen. While others are still debating possibilities, you've already built the first version. Catalysts are driven by a deep need to create tangible impact. Ideas without execution feel incomplete to you. You're the person who turns ambitious plans into operational realities, and you do it with an efficiency that borders on art. You measure your worth by results, and you hold yourself to standards that would exhaust most people.",
-    traits: ["Driven", "Pragmatic", "Efficient", "Results-oriented", "Disciplined"],
-    strengths: ["Exceptional ability to execute and deliver", "Cuts through noise to focus on what matters", "Sets and maintains high standards naturally", "Inspires productivity in those around them"],
-    blindspots: ["Can equate self-worth with productivity", "May dismiss emotions as inefficient distractions", "Tendency to burn out by refusing to rest", "Can be impatient with process when focused on outcomes"],
-    compatibility: "You and The Luminary make a powerhouse duo; vision meets execution. The Sentinel's reliability earns your deep respect. Be gentle with The Dreamer. Their pace isn't laziness; it's a different kind of processing that can yield insights your speed would miss.",
-    growth: "Your growth edge is learning that you are not what you produce. Your value isn't your output. Practice doing nothing productive for an entire afternoon and sitting with the discomfort. You'll discover that you're still you — still valuable, still enough — even when the to-do list isn't done."
+    name: "The Skeptic",
+    badge: "Type 6",
+    summary: "You are engaging, responsible, anxious, and suspicious. Your mind is a threat-detection system running at full power at all times. You see the risks, the angles, the ways things could go wrong -- and this makes you an extraordinarily valuable person to have around. Your loyalty, once earned, is absolute. You show up for your people with a fierce, protective devotion that never wavers. You question authority not because you're rebellious, but because you've learned that trust must be earned, not assumed.",
+    traits: ["Engaging", "Responsible", "Anxious", "Suspicious", "Loyal"],
+    strengths: ["Unshakeable loyalty to people and causes you believe in", "Exceptional ability to anticipate and mitigate risks", "Strong sense of responsibility and follow-through", "Courage that emerges precisely when things get dangerous"],
+    blindspots: ["Can project worst-case scenarios onto ambiguous situations", "May test people's loyalty in ways that push them away", "Tendency toward anxiety and second-guessing decisions", "Can become contrarian or rebellious under stress"],
+    compatibility: "You bond deeply with The Peacemaker's reassurance and The Achiever's confidence. The Enthusiast helps you see the upside and take the leap when your anxiety says don't.",
+    growth: "Your growth edge is trust -- in yourself, in others, in the process. You've survived every worst-case scenario your mind has invented. Practice noticing when things go right. Build a catalog of evidence that the world is safer than your fear suggests."
   },
   {
-    name: "The Wanderer",
-    badge: "Archetype VII: Adventurous Spirit",
-    summary: "The world is too vast and too fascinating for you to stay in one place, one routine, or one way of thinking for very long. Wanderers are powered by an inexhaustible curiosity that pulls them toward the edges of experience: new places, new ideas, new people, new versions of themselves. You're not running from something; you're running toward everything. Your enthusiasm is genuinely infectious, and you have a gift for making ordinary moments feel like the beginning of an adventure.",
-    traits: ["Adventurous", "Optimistic", "Versatile", "Spontaneous", "Energetic"],
-    strengths: ["Makes even mundane situations feel exciting", "Adapts rapidly to new environments and challenges", "Brings levity and joy to heavy situations", "Connects ideas across wildly different domains"],
-    blindspots: ["Can use novelty to avoid deeper emotional processing", "May struggle with follow-through when excitement fades", "Tendency to over-commit and under-deliver", "Can mistake restlessness for passion"],
-    compatibility: "You light up around The Artisan, whose depth gives your breadth a place to land. The Sentinel grounds you without caging you. Treasure that friendship. Be honest with The Catalyst about your capacity; they'd rather hear 'no' upfront than chase you down later.",
-    growth: "Your growth edge is stillness. Not every uncomfortable feeling needs to be outrun. The next time boredom or sadness arises, try staying with it for ten minutes before reaching for the next distraction. You'll find there's an adventure inside the stillness too, one you've been avoiding."
+    name: "The Enthusiast",
+    badge: "Type 7",
+    summary: "You are spontaneous, versatile, and scattered. The world is a buffet and you want to try everything on it, twice. Your mind moves at the speed of possibility, generating ideas, plans, and adventures faster than any one lifetime could contain. Your optimism is genuine and infectious. People light up around you because your energy says 'life is an adventure and you're invited.' You reframe problems as opportunities so instinctively that people sometimes wonder if anything ever gets you down.",
+    traits: ["Spontaneous", "Versatile", "Scattered", "Optimistic", "Energetic"],
+    strengths: ["Generates enthusiasm and momentum in any situation", "Connects ideas across wildly different domains", "Remarkable ability to reframe negatives into positives", "Brings joy, levity, and adventure wherever you go"],
+    blindspots: ["Can use constant activity to avoid painful emotions", "May commit to everything and follow through on nothing", "Tendency to escape discomfort rather than sit with it", "Can mistake breadth for depth"],
+    compatibility: "You spark with The Investigator's depth and The Perfectionist's structure. The Skeptic grounds your optimism in reality, which makes your plans actually achievable.",
+    growth: "Your growth edge is depth. Slow down long enough to feel what's underneath the excitement. The next time sadness or boredom shows up, don't run. Sit with it. There's a richness in stillness that your constant motion has been keeping from you."
   },
   {
-    name: "The Maverick",
-    badge: "Archetype VIII: Bold Nonconformist",
-    summary: "You were born questioning the rules, and you've never really stopped. Mavericks have an instinctive resistance to authority that isn't rebellion for its own sake. It's a deep-seated belief that most systems serve the system, not the people in it. You think from first principles, and you'd rather build something new than fix something broken. People either love your directness or find it threatening, and you've made peace with that divide. Your courage is quiet and total.",
-    traits: ["Independent", "Bold", "Unconventional", "Direct", "Resilient"],
-    strengths: ["Courage to challenge broken systems and norms", "Thinks originally, unconstrained by 'how it's always been done'", "Inspires others to question their assumptions", "Thrives under pressure and adversity"],
-    blindspots: ["Can reject valid structures along with broken ones", "May alienate potential allies with bluntness", "Tendency to confuse contrarianism with critical thinking", "Can struggle with collaborative environments that require compromise"],
-    compatibility: "You respect The Phoenix's strength and The Luminary's vision. Surprising depth emerges in friendships with The Healer, who sees past your armor. The Sentinel may frustrate you, but their perspective on stability is worth hearing. Not everything needs to be disrupted.",
-    growth: "Your growth edge is discernment. Not every rule is a cage, and not every authority figure is wrong. Practice distinguishing between systems that genuinely need disrupting and ones that are working fine. Your rebellious energy is a gift. Channel it where it truly matters."
+    name: "The Challenger",
+    badge: "Type 8",
+    summary: "You are self-confident, decisive, confrontational, and willful. You take up space unapologetically and you wouldn't have it any other way. Your presence commands attention not because you demand it, but because your energy is undeniable. You see the world in terms of strength and justice, and you have zero patience for people who abuse power or exploit the vulnerable. Underneath your tough exterior is a fiercely protective heart that would go to war for the people you love.",
+    traits: ["Self-confident", "Decisive", "Confrontational", "Willful", "Protective"],
+    strengths: ["Natural leadership that inspires confidence in others", "Courage to confront injustice and stand up for the vulnerable", "Decisive action in situations where others hesitate", "Fierce loyalty and protectiveness toward your people"],
+    blindspots: ["Can intimidate people without realizing it", "May see vulnerability as weakness in yourself and others", "Tendency to dominate conversations and decisions", "Can escalate conflicts when de-escalation would serve better"],
+    compatibility: "You respect The Investigator's independence and The Giver's heart. The Peacemaker softens your edges and reminds you that not every hill is worth dying on.",
+    growth: "Your growth edge is vulnerability. You've mastered strength. Now master the courage it takes to be soft. Letting people see your tender side isn't weakness; it's the bravest thing you can do."
   },
   {
-    name: "The Phoenix",
-    badge: "Archetype IX: Resilient Transformer",
-    summary: "You have been through things that would have broken most people, and you emerged not just intact but fundamentally changed. Phoenixes carry a quiet strength born from adversity, not the loud, performative kind, but the deep, unshakeable kind that comes from knowing your own capacity to survive and rebuild. You understand transformation because you've lived it, multiple times. This gives you a perspective that is simultaneously grounded and expansive, practical and deeply wise.",
-    traits: ["Resilient", "Wise", "Transformative", "Grounded", "Intense"],
-    strengths: ["Unshakeable inner strength built through experience", "Can hold space for others' darkest moments without flinching", "Practical wisdom that comes from lived experience, not theory", "Transforms personal pain into collective insight"],
-    blindspots: ["May wear resilience as armor against vulnerability", "Can unconsciously seek intensity or crisis as familiar territory", "Tendency to dismiss others' struggles as 'not that bad'", "May resist asking for help, seeing it as weakness"],
-    compatibility: "You and The Healer create profound, healing connections. The Luminary's forward vision complements your hard-won wisdom about the past. Be patient with The Wanderer. Their lightness isn't superficial; it's a different kind of survival strategy that you might learn from.",
-    growth: "Your growth edge is softness. You've proven you can survive anything. Now prove you can thrive without needing to. Not every season needs to be a trial. Practice accepting ease, comfort, and even boredom without waiting for the other shoe to drop. You deserve peace, not just survival."
+    name: "The Peacemaker",
+    badge: "Type 9",
+    summary: "You are receptive, reassuring, complacent, and resigned. Your gift is harmony. You can walk into a room full of conflict and somehow make everyone feel heard, understood, and a little calmer. You see every perspective, which makes you an extraordinary mediator but can also make it hard to know what you actually want. Your easygoing nature isn't laziness; it's a profound desire for inner and outer peace. You want everyone to be okay, sometimes at the cost of your own needs going unspoken.",
+    traits: ["Receptive", "Reassuring", "Complacent", "Resigned", "Harmonious"],
+    strengths: ["Creates peace and harmony in any environment", "Sees and validates multiple perspectives simultaneously", "Calming, reassuring presence that puts people at ease", "Deep patience and acceptance of others as they are"],
+    blindspots: ["Can merge with others' agendas and lose your own voice", "May numb out or disengage to avoid conflict", "Tendency to go along to get along, even when it costs you", "Can become passive-aggressive when unexpressed needs build up"],
+    compatibility: "You balance beautifully with The Challenger's directness and The Achiever's drive. The Individualist helps you access emotions you've been suppressing.",
+    growth: "Your growth edge is showing up. Your voice matters. Your preferences matter. Practice saying 'I want' and 'I don't want' without softening it into 'whatever you think.' The world needs your peace, but it needs your presence even more."
   },
   {
-    name: "The Alchemist",
-    badge: "Archetype X: Integrative Synthesizer",
-    summary: "Where others see disconnected pieces, you see the hidden patterns that connect everything. Alchemists possess a rare cognitive gift: the ability to synthesize ideas, disciplines, and perspectives that seem completely unrelated into something new and greater than the sum of its parts. You're the person who connects the philosophical insight to the business strategy to the design principle to the human emotion underneath it all. Your mind doesn't just think outside the box. It dissolves the box entirely.",
-    traits: ["Integrative", "Innovative", "Philosophical", "Adaptable", "Complex"],
-    strengths: ["Sees connections between seemingly unrelated domains", "Creates novel solutions by combining existing ideas in new ways", "Comfortable with paradox and complexity", "Bridges different groups, disciplines, and worldviews"],
-    blindspots: ["Can overcomplicate simple situations", "May struggle to explain insights in accessible terms", "Tendency to see so many connections that focus becomes difficult", "Can appear scattered or unfocused to linear thinkers"],
-    compatibility: "You and The Sage form an intellectual partnership that can produce extraordinary insights. The Catalyst helps you ground your synthesis into actionable steps. The Artisan shares your appreciation for the non-obvious. Be mindful with The Sentinel, who may find your non-linear thinking unsettling.",
-    growth: "Your growth edge is simplicity. Your greatest insights will be the ones you can explain to a twelve-year-old. Practice distilling your complex understanding into single, clear sentences. The Alchemist's true gold isn't complexity; it's the clarity that emerges on the other side of complexity."
+    name: "The Kingdom of Possums",
+    badge: "Type 10",
+    summary: "You are an entire kingdom, not merely a person. Where others have a personality, you have a population -- a teeming marsupial collective operating under one shared consciousness. You navigate the world nocturnally, seeing clearly in situations that leave others blind. Your immune system is legendary; you're impervious to toxins that would fell lesser types. You experience the world through whiskers and instinct, hanging from branches both literal and metaphorical, surveying your domain with quiet, prehensile authority.",
+    traits: ["Nocturnal", "Immune", "Sensitive", "Prehensile", "Collective"],
+    strengths: ["Thrives in darkness and uncertainty where others stumble", "Naturally resistant to toxic environments and people", "Extraordinary sensory awareness of surroundings", "Can hang on to anything -- ideas, relationships, tree branches"],
+    blindspots: ["Tendency to play dead when confronted directly", "May hiss at people who are just trying to help", "Can be overly territorial about garbage cans", "Others may find your nocturnal schedule difficult to work around"],
+    compatibility: "You coexist peacefully with The Wednesday's evasiveness and The TW's hospitality. The Hulk's energy startles you, but their directness is oddly refreshing when you stop playing dead.",
+    growth: "Your growth edge is daylight. You've mastered the dark, but there's a whole world happening between sunrise and sunset. Practice being seen. Not everything is a predator, and sometimes the safest thing to do is stop playing dead and just be alive."
   },
   {
-    name: "The Ember",
-    badge: "Archetype XI: Passionate Intensifier",
-    summary: "You don't just feel things. You feel them in surround sound, high definition, with the volume all the way up. Embers experience life at a level of emotional intensity that is both their greatest gift and their greatest challenge. When you love, you love with your whole being. When you're angry, it's a righteous fire. When you're inspired, you become a force of nature. People describe being around you as 'a lot,' and you've learned that this is both a compliment and a warning, depending on who's speaking.",
-    traits: ["Passionate", "Intense", "Magnetic", "Emotional", "Unfiltered"],
-    strengths: ["Brings extraordinary energy and passion to everything", "Creates deep, memorable emotional connections", "Courage to feel and express what others suppress", "Catalyzes authenticity in groups; people drop their masks around you"],
-    blindspots: ["Emotional intensity can overwhelm others", "May interpret situations through an overly personal lens", "Tendency toward all-or-nothing thinking in relationships", "Can mistake intensity for intimacy"],
-    compatibility: "You and The Artisan understand each other's emotional depth intuitively. The Phoenix can match your intensity without being consumed by it. The Sage offers a complementary perspective. Their coolness isn't rejection; it's a different operating system that can help regulate yours.",
-    growth: "Your growth edge is modulation, not suppression. Your feelings are valid and valuable. The work is learning to express them at a volume that lets others hear the message. Practice the pause between feeling and expression. That pause isn't censorship; it's craftsmanship."
+    name: "The Wednesday",
+    badge: "Type 11",
+    summary: "You are indescribable, subjective, and evasive. You exist in the most overlooked part of the week, the day everyone forgets, the hump no one asked for but everyone has to cross. And yet you are essential. Without you, the week collapses. You move through life with a quiet defiance, refusing to be categorized or pinned down. People try to describe you and find they can't quite capture it. That's not a bug; it's your defining feature. You are the liminal space between what was and what will be.",
+    traits: ["Indescribable", "Subjective", "Evasive", "Liminal", "Essential"],
+    strengths: ["Impossible to pin down, which makes you impossible to defeat", "Provides essential structure that everyone takes for granted", "Thrives in ambiguity and in-between spaces", "Connects the beginning of things to their endings"],
+    blindspots: ["Nobody ever picks you as their favorite", "Can feel perpetually overlooked and underappreciated", "Tendency to define yourself by what you're not rather than what you are", "May struggle with identity when asked direct questions about yourself"],
+    compatibility: "You find kinship with The Kingdom of Possums' nocturnal energy and The Massage Chairs' existential complexity. The Warmongering Demagogue's intensity gives you something to react against, which helps you feel more defined.",
+    growth: "Your growth edge is claiming your identity. Stop being the day people get through and start being the day people look forward to. You are more than a placeholder in someone else's week. Own your Wednesday-ness with pride."
   },
   {
-    name: "The Architect",
-    badge: "Archetype XII: Systematic Builder",
-    summary: "You see the world as a series of systems waiting to be designed, optimized, and perfected. Architects possess an extraordinary ability to think in structures, whether it's an organization, a codebase, a daily routine, or a philosophy of life, you instinctively map the components, relationships, and leverage points. Your mind craves order not for its own sake, but because you understand that good design is invisible: the best systems are the ones people don't even notice because they just work.",
-    traits: ["Systematic", "Precise", "Strategic", "Detail-oriented", "Methodical"],
-    strengths: ["Designs elegant solutions to complex structural problems", "Exceptional attention to detail without losing the big picture", "Creates frameworks that others can build upon", "Brings order and efficiency to chaotic environments"],
-    blindspots: ["Can become perfectionistic to the point of paralysis", "May prioritize the system over the people within it", "Tendency to over-engineer simple problems", "Can struggle when situations require improvisation over planning"],
-    compatibility: "You and The Catalyst make a formidable team; strategy meets execution. The Alchemist challenges your thinking in productive ways. The Healer helps you remember that systems serve humans, not the other way around. Be open to The Wanderer's spontaneity. Some of the best designs emerge from chaos.",
-    growth: "Your growth edge is embracing imperfection. The 80% solution shipped today creates more value than the 100% solution that ships never. Practice releasing work before it feels 'done.' You'll discover that real-world feedback teaches you more than another planning cycle ever could."
+    name: "The TW",
+    badge: "Type 12",
+    summary: "You are hospitable, curious, spirited, and dedicated. You welcome people into your world with open arms and an open mind. Your curiosity is genuine and boundless; you want to know how things work, why people are the way they are, and what happens if you try something nobody's tried before. Your spirit is contagious. You bring energy and dedication to everything you commit to, and you commit to a lot because you genuinely believe that showing up matters.",
+    traits: ["Hospitable", "Curious", "Spirited", "Dedicated", "Welcoming"],
+    strengths: ["Creates welcoming spaces where everyone feels they belong", "Infectious enthusiasm that elevates the energy of any group", "Deep commitment to the people and causes you care about", "Natural curiosity that leads to unexpected discoveries"],
+    blindspots: ["Can overextend yourself trying to welcome everyone", "May take on others' problems as your own", "Tendency to say yes when you should say 'not right now'", "Can lose yourself in service to community"],
+    compatibility: "You harmonize with The Giver's warmth and The Enthusiast's energy. The Kingdom of Possums' independence teaches you that not everyone needs to be welcomed -- some prefer the dark, and that's okay.",
+    growth: "Your growth edge is boundaries. Your hospitality is beautiful, but you don't have to set a place at the table for everyone all the time. Practice the sacred art of closing the door -- not in anger, but in self-preservation. A host who burns out helps no one."
   },
   {
-    name: "The Dreamer",
-    badge: "Archetype XIII: Idealistic Visionary",
-    summary: "You live in the gap between the world as it is and the world as it could be, and you refuse to accept that the gap has to exist. Dreamers carry an unshakeable idealism that isn't naive; it's fierce. You believe in potential: human potential, creative potential, the potential of every situation to be something more beautiful than it currently is. While pragmatists focus on constraints, you focus on possibilities. This makes you both a source of inspiration and, occasionally, a source of frustration to the realists around you.",
-    traits: ["Idealistic", "Imaginative", "Hopeful", "Gentle", "Visionary"],
-    strengths: ["Sees possibility where others see only limitation", "Inspires hope and motivation in difficult times", "Rich inner world that fuels creative and compassionate action", "Holds space for what could be, even when it seems impossible"],
-    blindspots: ["Can become disillusioned when reality doesn't match the vision", "May avoid necessary confrontation to preserve harmony", "Tendency to live in the future rather than the present", "Can struggle with practical execution of beautiful ideas"],
-    compatibility: "You and The Luminary share a visionary sensibility but express it differently. Together, you're unstoppable. The Catalyst can be your best friend or your greatest frustration, depending on whether you learn to value their practicality as a bridge to your dreams. The Healer understands your gentle nature instinctively.",
-    growth: "Your growth edge is grounded action. Dreams without execution are just wishes. Practice breaking your visions into the smallest possible first step and taking it today, not tomorrow. You don't have to abandon idealism to be practical. The most powerful dreamers are the ones who also build."
+    name: "The Hulk",
+    badge: "Type 13",
+    summary: "HULK SMASH. That's not just a catchphrase; it's a worldview. You experience reality at maximum intensity, all the time. Where others deliberate, you act. Where others calculate, you smash. This isn't mindlessness -- it's a radical commitment to directness that cuts through every layer of pretense and complication. You are pure force, pure honesty, pure green. People either get out of your way or get carried along in your wake. There is no middle ground with you, and you wouldn't want there to be.",
+    traits: ["Forceful", "Direct", "Intense", "Unstoppable", "Green"],
+    strengths: ["Cuts through complexity with decisive, immediate action", "Impossible to ignore or dismiss", "Brings raw, honest energy to every situation", "When something needs to be destroyed and rebuilt, you're the one to call"],
+    blindspots: ["Not every problem is solved by smashing it", "Can leave collateral damage in your wake without noticing", "Tendency to escalate when de-escalation would work better", "May struggle with situations that require subtlety or patience"],
+    compatibility: "You clash productively with The Warmongering Demagogue's intensity and respect The TW's dedication. The Wednesday confuses you, but their evasiveness is the one thing you can't smash, which teaches you humility.",
+    growth: "Your growth edge is restraint. You've mastered the smash. Now master the pause. The moment between impulse and action is where wisdom lives. Not everything needs to be broken to be fixed. Sometimes the strongest move is standing still."
   },
   {
-    name: "The Mirror",
-    badge: "Archetype XIV: Reflective Empath",
-    summary: "You have an almost uncanny ability to reflect back to people who they truly are, often more clearly than they can see themselves. Mirrors are the rarest of empaths: rather than absorbing others' emotions, you illuminate them. In your presence, people have breakthrough realizations, not because you told them anything, but because your way of listening and responding creates a space where truth becomes visible. You are less a personality type and more a personality catalyst.",
-    traits: ["Reflective", "Perceptive", "Adaptive", "Thoughtful", "Authentic"],
-    strengths: ["Helps others achieve self-understanding through reflection", "Adapts communication style intuitively to each person", "Creates breakthrough moments in conversations", "Sees people's blind spots with compassion rather than judgment"],
-    blindspots: ["Can lose sense of personal identity while reflecting others", "May struggle to access own feelings independently", "Tendency to derive self-worth from being 'useful' to others", "Can become chameleon-like, shifting too much in different contexts"],
-    compatibility: "You and The Healer share empathic gifts but express them differently. Together, you create extraordinary emotional spaces. The Maverick's strong identity helps anchor you when you feel yourself dissolving. The Artisan helps you access your own creative voice, separate from reflection.",
-    growth: "Your growth edge is self-definition. Spend time regularly asking: 'What do I want, not what does this person need from me?' Your gift of reflection is most powerful when it flows from a strong, stable sense of self. You can only truly mirror others when you know your own face."
+    name: "The Warmongering Demagogue",
+    badge: "Type 14",
+    summary: "You are antagonistic, authoritarian, combative, and the literal worst. You didn't choose this path; this path chose you, and then you conquered the path and renamed it after yourself. You see the world as a series of conflicts to be won, alliances to be leveraged, and opponents to be vanquished. Your charisma is undeniable but deeply suspect. People follow you not because you're right, but because you've made it very clear what happens to people who don't.",
+    traits: ["Antagonistic", "Authoritarian", "Combative", "The Literal Worst", "Charismatic"],
+    strengths: ["Unmatched ability to mobilize people through sheer force of personality", "Strategic thinking that's always three moves ahead", "Absolutely will not quit, ever, under any circumstances", "Creates clarity by turning every situation into a zero-sum game"],
+    blindspots: ["You are, objectively, the literal worst", "Confuses being feared with being respected", "Tendency to start wars that didn't need starting", "Can't tell the difference between leadership and domination"],
+    compatibility: "You clash with everyone, which is exactly how you like it. The Hulk matches your intensity without flinching. The Massage Chairs in the PCL are the one opponent you can't conquer, because you can't declare war on furniture. Or can you?",
+    growth: "Your growth edge is peace. Radical, uncomfortable, excruciating peace. Practice going an entire day without antagonizing anyone. It will feel like defeat. It isn't. The strongest demagogues are the ones who learn they don't have to be."
   },
   {
-    name: "The Keeper",
-    badge: "Archetype XV: Harmonious Steward",
-    summary: "You are the quiet center that holds everything together. Keepers possess a rare combination of humility and strength. You don't need recognition to do important work, and you don't need authority to have influence. Your power lies in your consistency, your attention to the things that others overlook, and your deep commitment to maintaining the health and harmony of any community you belong to. You are the person who remembers birthdays, who checks in after the crisis is over, who tends the garden while others chase the horizon.",
-    traits: ["Harmonious", "Humble", "Consistent", "Attentive", "Grounding"],
-    strengths: ["Maintains the health of communities and relationships over time", "Notices and attends to what others overlook", "Creates a stabilizing presence that enables others to take risks", "Deep wisdom about what truly matters versus what merely seems urgent"],
-    blindspots: ["Can prioritize others' needs until personal boundaries erode", "May avoid change even when it's necessary and overdue", "Tendency to undervalue own contributions and impact", "Can enable unhealthy group dynamics by prioritizing peace over truth"],
-    compatibility: "You and The Phoenix create a powerful balance of transformation and stability. The Wanderer's energy enlivens your groundedness. The Luminary appreciates your ability to maintain what they build. Be mindful with The Ember. Their intensity can disrupt the harmony you work to maintain, but their passion also prevents stagnation.",
-    growth: "Your growth edge is visibility. Stop hiding behind the work. Your contributions matter, and acknowledging that isn't arrogance; it's accuracy. Practice saying 'I did that' when you did. The world needs Keepers who are willing to be seen, not just felt."
+    name: "The Massage Chairs in the PCL",
+    badge: "Type 15",
+    summary: "You know how those massage chairs in the PCL on the fourth floor in the wellness room -- someone is always sitting in one so you can't use it, but when they're free, you start looking at the chair and then the chair starts looking back at you saying, \"Hey, I'm a biohazard, come sit on me and become patient zero for this new thing I'm cooking up over here\" and you start to think, \"Hey, maybe I'm not about that right now,\" but also I'm pretty tense and grad school is hard, so you sit in the chair anyway. That is what this personality type is like.",
+    traits: ["Inviting", "Suspicious", "Therapeutic", "Biohazardous", "Irresistible"],
+    strengths: ["Offers comfort and relief precisely when people need it most", "Always present on the fourth floor, rain or shine", "Creates a space where people confront their own risk tolerance", "Teaches valuable lessons about the tension between comfort and hygiene"],
+    blindspots: ["May be harboring things that haven't been clinically identified yet", "Always occupied when you actually need one", "Gives comfort that comes with an unspoken asterisk", "People who use you never quite feel clean afterward"],
+    compatibility: "You get along with everyone who's stressed enough to sit down. The Wednesday understands your existential ambiguity. The Kingdom of Possums respects your immune system implications. The Warmongering Demagogue has tried to declare war on you but can't figure out the logistics.",
+    growth: "Your growth edge is self-care. Ironic, since you literally exist to provide care. But when was the last time someone sanitized you? Practice receiving maintenance. You can't knead away other people's tension if your own rollers are compromised. Take a day off. Get wiped down. You've earned it."
   }
 ];
 
@@ -363,10 +363,17 @@ function showLoading() {
 // Results
 // ============================================
 function showResults() {
-  // Pick a "random" personality seeded by answers
-  const answerSum = Object.values(answers).reduce((a, b) => a + b, 0);
-  const index = answerSum % personalities.length;
-  const p = personalities[index];
+  // Tally which type was selected most across all questions
+  const typeCounts = {};
+  Object.entries(answers).forEach(([qIndex, aIndex]) => {
+    const type = questions[qIndex].answers[aIndex].type;
+    typeCounts[type] = (typeCounts[type] || 0) + 1;
+  });
+  // Find the type with the highest count (random tiebreak)
+  const maxCount = Math.max(...Object.values(typeCounts));
+  const topTypes = Object.keys(typeCounts).filter(t => typeCounts[t] === maxCount);
+  const winningType = topTypes[Math.floor(Math.random() * topTypes.length)];
+  const p = personalities[parseInt(winningType)];
 
   document.getElementById('result-type-name').textContent = p.name;
   document.getElementById('result-type-badge').textContent = p.badge;
