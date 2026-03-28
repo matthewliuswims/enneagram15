@@ -14,57 +14,69 @@ const questions = [
     ]
   },
   {
-    text: "A close friend cancels plans at the last minute. What goes through your mind first?",
-    answers: [
-      { text: "\"Something must be wrong. I should check on them\"", id: "a" },
-      { text: "\"Finally, an evening to myself\"", id: "b" },
-      { text: "\"That's frustrating. I rearranged my schedule for this\"", id: "c" },
-      { text: "\"I wonder if I did something to upset them\"", id: "d" }
-    ]
-  },
-  {
-    text: "You're given a massive, ambiguous project with no clear instructions. How do you start?",
-    answers: [
-      { text: "Research extensively before making any moves", id: "a" },
-      { text: "Jump in and figure it out as I go", id: "b" },
-      { text: "Create a detailed plan with milestones and deadlines", id: "c" },
-      { text: "Find someone who's done something similar and ask for guidance", id: "d" }
-    ]
-  },
-  {
     text: "When you disagree with someone you respect, you typically:",
     answers: [
-      { text: "Say it directly. Honest disagreement is healthy", id: "a" },
-      { text: "Ask questions to understand their perspective first", id: "b" },
-      { text: "Keep it to myself unless it really matters", id: "c" },
-      { text: "Find a diplomatic way to present my alternative view", id: "d" }
+      { text: "Try to relax together with a friendly massage", id: "a", type: 14 },
+      { text: "Declare war", id: "b", type: 13 },
+      { text: "Keel over", id: "c", type: 9 },
+      { text: "Avoid the subject", id: "d", type: 10 },
+      { text: "SMASH", id: "e", type: 12 },
+      { text: "Handle the disagreement with care", id: "f", type: 11 }
     ]
   },
   {
-    text: "When you're stressed, you tend to:",
+    text: "How do your friends describe you?",
     answers: [
-      { text: "Withdraw and process things internally", id: "a" },
-      { text: "Over-commit and stay busy to avoid feeling it", id: "b" },
-      { text: "Talk it out with someone I trust", id: "c" },
-      { text: "Get irritable and controlling about small things", id: "d" }
+      { text: "Friendly and cheerful", id: "a", type: 11 },
+      { text: "💲💲💲", id: "b", type: 13 },
+      { text: "Fluffy", id: "c", type: 9 },
+      { text: "Wednesday", id: "d", type: 10 },
+      { text: "Deep", id: "e", type: 14 },
+      { text: "Angry", id: "f", type: 12 }
     ]
   },
   {
-    text: "Which statement resonates most deeply with you?",
+    text: "Which statement most deeply resonates with you?",
     answers: [
-      { text: "\"I need to understand the world before I can act in it\"", id: "a" },
-      { text: "\"I need to be needed; that's how I know I matter\"", id: "b" },
-      { text: "\"I need freedom to be who I am without constraints\"", id: "c" },
-      { text: "\"I need to do things right, or it haunts me\"", id: "d" }
+      { text: "\"Join our Bible Study tonight!\"", id: "a", type: 11 },
+      { text: "\"I am a kingdom of marsupials\"", id: "b", type: 9 },
+      { text: "\"HULK SMASH\"", id: "c", type: 12 },
+      { text: "\"Shiatsu or Deep Tissue?\"", id: "d", type: 14 },
+      { text: "\"Life is a conundrum of esoterica\"", id: "e", type: 10 },
+      { text: "\"You're fired\"", id: "f", type: 13 }
     ]
   },
   {
     text: "When making a big life decision, you rely most on:",
     answers: [
-      { text: "My gut feeling. I usually know before I can explain why", id: "a" },
-      { text: "Careful analysis of all the options and their trade-offs", id: "b" },
-      { text: "Advice from people who've been in similar situations", id: "c" },
-      { text: "My core values. Does this align with who I want to be?", id: "d" }
+      { text: "My medical degree", id: "a", type: 12 },
+      { text: "Myself", id: "b", type: 13 },
+      { text: "Weekly rituals", id: "c", type: 10 },
+      { text: "Faith and family", id: "d", type: 11 },
+      { text: "My sense of smell", id: "e", type: 9 },
+      { text: "A quiet, if medically threatening, moment of rest", id: "f", type: 14 }
+    ]
+  },
+  {
+    text: "Choose a color:",
+    answers: [
+      { text: "Black", id: "a", type: 14 },
+      { text: "Orange", id: "b", type: 13 },
+      { text: "Green", id: "c", type: 12 },
+      { text: "Grey", id: "d", type: 9 },
+      { text: "Blue", id: "e", type: 11 },
+      { text: "Colorless", id: "f", type: 10 }
+    ]
+  },
+  {
+    text: "What does the world need more of?",
+    answers: [
+      { text: "SMASH!", id: "a", type: 12 },
+      { text: "Roller mechanisms!", id: "b", type: 14 },
+      { text: "Unsung weekdays!", id: "c", type: 10 },
+      { text: "Trees!", id: "d", type: 9 },
+      { text: "GradIV!", id: "e", type: 11 },
+      { text: "War!", id: "f", type: 13 }
     ]
   }
 ];
