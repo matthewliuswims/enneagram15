@@ -28,7 +28,7 @@ const questions = [
     text: "How do your friends describe you?",
     answers: [
       { text: "Friendly and cheerful", id: "a", type: 11 },
-      { text: "💲💲💲", id: "b", type: 13 },
+      { text: "💰💰💰", id: "b", type: 13 },
       { text: "Fluffy", id: "c", type: 9 },
       { text: "Wednesday", id: "d", type: 10 },
       { text: "Deep", id: "e", type: 14 },
