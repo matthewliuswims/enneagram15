@@ -100,6 +100,17 @@ const questions = [
       { text: "SMASH burgers", id: "e", type: 12 },
       { text: "Garbage or overripe grapes", id: "f", type: 9 }
     ]
+  },
+  {
+    text: "You are giving a presentation at PowerPoint Night, what is it about?",
+    answers: [
+      { text: "Mighty Ducks the Musical: How the Best Disney Film Franchise Took to the Stage", id: "a", type: 11 },
+      { text: "What is Wednesday?", id: "b", type: 10 },
+      { text: "ME ANGRY ME SMASH", id: "c", type: 12 },
+      { text: "Between Biohazard and Rest: Who is Cleaning Those PCL Massage Chairs?", id: "d", type: 14 },
+      { text: "Spreading Love, Not Disease: The Benefit of Possums", id: "e", type: 9 },
+      { text: "Mongering for a Good Time: War and How to Fill Your Pockets the Demagogue Way", id: "f", type: 13 }
+    ]
   }
 ];
 
