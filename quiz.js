@@ -437,10 +437,10 @@ function retakeQuiz() {
 function shareResults() {
   const name = document.getElementById('result-type-name').textContent;
   const badge = document.getElementById('result-type-badge').textContent;
-  const text = `I'm ${name} (${badge}). Take the Enneagram personality quiz to discover yours!`;
+  const text = `I'm ${name} (${badge}). Take the Enneagram personality quiz to discover yours! https://www.enneagram15.com`;
 
   if (navigator.share) {
-    navigator.share({ title: 'My Enneagram Archetype', text: text });
+    navigator.share({ title: 'My Enneagram Archetype', text: text, url: 'https://www.enneagram15.com' });
   } else if (navigator.clipboard) {
     navigator.clipboard.writeText(text).then(() => {
       const toast = document.createElement('div');
