@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personality Assessment — The Enneagram Institute</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-symbol">◉</div>
+        <span>The Enneagram Institute</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#types">The 9 Types</a></li>
+        <li><a href="quiz.html" class="nav-cta active">Take the Quiz</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Quiz Container -->
+  <main class="quiz-page">
+
+    <!-- Intro Screen -->
+    <div id="quiz-intro" class="quiz-screen active">
+      <div class="quiz-intro-content">
+        <div class="quiz-badge">Free Assessment</div>
+        <h1>Discover Your Personality Archetype</h1>
+        <p>Answer 12 questions honestly — there are no right or wrong answers. Go with your gut feeling rather than overthinking. This assessment identifies your dominant archetype from our expanded 15-type personality model.</p>
+        <div class="quiz-meta">
+          <div class="meta-item">
+            <span class="meta-icon">⏱</span>
+            <span>~5 minutes</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-icon">📊</span>
+            <span>12 questions</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-icon">🔒</span>
+            <span>100% private</span>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-lg" onclick="startQuiz()">Begin Assessment</button>
+        <p class="quiz-disclaimer">Your answers are not stored or shared. Results are generated instantly in your browser.</p>
+      </div>
+    </div>
+
+    <!-- Question Screen -->
+    <div id="quiz-questions" class="quiz-screen">
+      <div class="quiz-progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="quiz-progress-text">
+        <span>Question <span id="q-current">1</span> of <span id="q-total">12</span></span>
+        <span id="progress-pct">0%</span>
+      </div>
+
+      <div class="question-container" id="question-container">
+        <h2 class="question-text" id="question-text"></h2>
+        <div class="answers-grid" id="answers-grid"></div>
+      </div>
+
+      <div class="quiz-nav">
+        <button class="btn btn-ghost" id="btn-back" onclick="prevQuestion()" disabled>← Back</button>
+        <button class="btn btn-primary" id="btn-next" onclick="nextQuestion()" disabled>Next →</button>
+      </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="quiz-loading" class="quiz-screen">
+      <div class="loading-content">
+        <div class="loading-spinner">
+          <div class="spinner-ring"></div>
+          <div class="spinner-ring"></div>
+          <div class="spinner-ring"></div>
+        </div>
+        <h2>Analyzing Your Responses</h2>
+        <p class="loading-step" id="loading-step">Mapping personality dimensions...</p>
+        <div class="loading-bar">
+          <div class="loading-bar-fill" id="loading-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="quiz-results" class="quiz-screen">
+      <div class="results-content">
+        <div class="results-header">
+          <p class="results-eyebrow">Your Personality Archetype</p>
+          <h1 id="result-type-name"></h1>
+          <div class="result-type-badge" id="result-type-badge"></div>
+        </div>
+
+        <div class="results-body">
+          <div class="result-summary" id="result-summary"></div>
+
+          <div class="result-traits">
+            <h3>Core Traits</h3>
+            <div class="traits-grid" id="traits-grid"></div>
+          </div>
+
+          <div class="result-details-grid">
+            <div class="result-detail-card">
+              <h4>Strengths</h4>
+              <ul id="result-strengths"></ul>
+            </div>
+            <div class="result-detail-card">
+              <h4>Blind Spots</h4>
+              <ul id="result-blindspots"></ul>
+            </div>
+          </div>
+
+          <div class="result-compat">
+            <h3>Relationship Dynamics</h3>
+            <p id="result-compat-text"></p>
+          </div>
+
+          <div class="result-growth">
+            <h3>Growth Path</h3>
+            <p id="result-growth-text"></p>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button class="btn btn-primary" onclick="retakeQuiz()">Retake Assessment</button>
+          <button class="btn btn-secondary" onclick="shareResults()">Share Results</button>
+        </div>
+
+        <div class="results-footer">
+          <p>Want to go deeper? Explore <a href="index.html#types">all 9 core types</a> or learn about our <a href="#">expanded archetype model</a>.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="quiz.js"></script>
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

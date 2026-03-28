@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Enneagram Institute — Discover Your True Self</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-symbol">◉</div>
+        <span>The Enneagram Institute</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#types">The 9 Types</a></li>
+        <li><a href="quiz.html" class="nav-cta">Take the Quiz</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-bg">
+      <div class="enneagram-symbol">
+        <svg viewBox="0 0 400 400" class="enneagram-svg">
+          <circle cx="200" cy="200" r="170" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+          <!-- 9 points on the circle -->
+          <circle cx="200" cy="30" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="326" cy="89" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="370" cy="230" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="295" cy="352" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="105" cy="352" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="30" cy="230" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="74" cy="89" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="143" cy="37" r="5" fill="rgba(255,255,255,0.3)"/>
+          <circle cx="257" cy="37" r="5" fill="rgba(255,255,255,0.3)"/>
+          <!-- Inner lines -->
+          <line x1="200" y1="30" x2="370" y2="230" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="370" y1="230" x2="105" y2="352" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="105" y1="352" x2="200" y2="30" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="326" y1="89" x2="30" y2="230" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="30" y1="230" x2="295" y2="352" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="295" y1="352" x2="74" y2="89" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="74" y1="89" x2="326" y2="89" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+          <line x1="143" y1="37" x2="257" y2="37" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2009 &mdash; Trusted by 2.4M+ people worldwide</p>
+      <h1>Understand Yourself.<br>Transform Your Life.</h1>
+      <p class="hero-sub">The Enneagram is a powerful framework for understanding personality — revealing not just <em>what</em> you do, but <em>why</em> you do it. Discover the patterns that shape your relationships, career, and inner world.</p>
+      <div class="hero-actions">
+        <a href="quiz.html" class="btn btn-primary">Take the Free Assessment</a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">15</span>
+          <span class="stat-label">Personality Archetypes</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">42</span>
+          <span class="stat-label">Curated Questions</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">5 min</span>
+          <span class="stat-label">Average Completion</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Ancient Wisdom, Modern Science</p>
+        <h2>What Is the Enneagram?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">🔍</div>
+          <h3>Self-Discovery</h3>
+          <p>Unlike surface-level personality tests, the Enneagram reveals your core motivations, deepest fears, and unconscious patterns that drive your behavior every day.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🧠</div>
+          <h3>Backed by Research</h3>
+          <p>Our assessment draws from decades of psychological research, integrating findings from cognitive science, attachment theory, and behavioral psychology.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🌱</div>
+          <h3>Personal Growth</h3>
+          <p>Knowing your type isn't the destination — it's the beginning. Each type has clear pathways for development, integration, and reaching your highest potential.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">💫</div>
+          <h3>Better Relationships</h3>
+          <p>Understanding your own patterns helps you empathize with others. See why people close to you react differently and learn to communicate with greater compassion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Types Overview -->
+  <section id="types" class="section types-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">The Framework</p>
+        <h2>The Nine Core Types</h2>
+        <p class="section-desc">Every person has a dominant type that shapes how they see and interact with the world. Our expanded model identifies 15 distinct archetypes within this framework.</p>
+      </div>
+      <div class="types-grid">
+        <div class="type-card" style="--accent: #E74C3C">
+          <span class="type-num">1</span>
+          <h4>The Reformer</h4>
+          <p>Principled, purposeful, self-controlled, and perfectionistic</p>
+        </div>
+        <div class="type-card" style="--accent: #E67E22">
+          <span class="type-num">2</span>
+          <h4>The Helper</h4>
+          <p>Generous, demonstrative, people-pleasing, and possessive</p>
+        </div>
+        <div class="type-card" style="--accent: #F1C40F">
+          <span class="type-num">3</span>
+          <h4>The Achiever</h4>
+          <p>Adaptable, excelling, driven, and image-conscious</p>
+        </div>
+        <div class="type-card" style="--accent: #2ECC71">
+          <span class="type-num">4</span>
+          <h4>The Individualist</h4>
+          <p>Expressive, dramatic, self-absorbed, and temperamental</p>
+        </div>
+        <div class="type-card" style="--accent: #1ABC9C">
+          <span class="type-num">5</span>
+          <h4>The Investigator</h4>
+          <p>Perceptive, innovative, secretive, and isolated</p>
+        </div>
+        <div class="type-card" style="--accent: #3498DB">
+          <span class="type-num">6</span>
+          <h4>The Loyalist</h4>
+          <p>Engaging, responsible, anxious, and suspicious</p>
+        </div>
+        <div class="type-card" style="--accent: #9B59B6">
+          <span class="type-num">7</span>
+          <h4>The Enthusiast</h4>
+          <p>Spontaneous, versatile, acquisitive, and scattered</p>
+        </div>
+        <div class="type-card" style="--accent: #8E44AD">
+          <span class="type-num">8</span>
+          <h4>The Challenger</h4>
+          <p>Self-confident, decisive, willful, and confrontational</p>
+        </div>
+        <div class="type-card" style="--accent: #95A5A6">
+          <span class="type-num">9</span>
+          <h4>The Peacemaker</h4>
+          <p>Receptive, reassuring, complacent, and resigned</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Ready to Discover Your Type?</h2>
+        <p>Our scientifically-informed assessment takes just 5 minutes and reveals your unique personality archetype from our expanded 15-type model.</p>
+        <a href="quiz.html" class="btn btn-primary btn-lg">Start the Free Assessment →</a>
+        <p class="cta-note">No email required. Instant results. 100% free.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What People Are Saying</p>
+        <h2>Trusted by Millions</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"This quiz genuinely changed how I understand myself. I always knew I was 'different' but now I have language for it. The accuracy was almost unsettling."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div>
+              <strong>Sarah K.</strong>
+              <span>Therapist, Portland</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"I've taken every personality test out there — MBTI, Big Five, you name it. This is the only one that made my wife say 'that's exactly you.' Highly recommend."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div>
+              <strong>Marcus R.</strong>
+              <span>Software Engineer, Austin</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"We use this as part of our team onboarding now. It's sparked some of the most meaningful conversations about working styles and communication I've ever seen."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JL</div>
+            <div>
+              <strong>Jennifer L.</strong>
+              <span>VP of People, NYC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-symbol">◉</div>
+            <span>The Enneagram Institute</span>
+          </div>
+          <p>Helping people understand themselves and each other since 2009. Our mission is to make the wisdom of the Enneagram accessible to everyone.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About the Enneagram</a></li>
+            <li><a href="#types">The 9 Types</a></li>
+            <li><a href="quiz.html">Take the Quiz</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Research & Methodology</a></li>
+            <li><a href="#">For Therapists</a></li>
+            <li><a href="#">For Teams & Organizations</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Enneagram Institute. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          navLinks.classList.remove('open');
+          toggle.classList.remove('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
